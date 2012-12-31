@@ -1,5 +1,3 @@
-require("chartdirector")
-
 class ChartsController < ApplicationController
   before_filter :authenticate_user!
   
